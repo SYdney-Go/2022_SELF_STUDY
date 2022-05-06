@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+케라스창시자에게배우는딥러닝/Dataset
+케라스창시자에게배우는딥러닝/model_file
