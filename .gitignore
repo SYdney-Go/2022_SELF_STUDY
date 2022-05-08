@@ -128,8 +128,13 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+#dataset
 케라스창시자에게배우는딥러닝/Dataset
+Kaggle/YuHan_Curriculum/Dataset
+
+#model
 케라스창시자에게배우는딥러닝/model_file
 
 #venv
-Kaggle/YuHan_Curriculum/Yuhan
+Kaggle/YuHan_Curriculum/Yuhan_venv
+Do_it_딥러닝입문/DoItDeepLearning_venv
