@@ -130,11 +130,11 @@ dmypy.json
 
 #dataset
 케라스창시자에게배우는딥러닝/Dataset
-Kaggle/YuHan_Curriculum/Dataset
+Kaggle/YuHan_Curriculum/2_SafeDriverPrediction/dataset
 
 #model
 케라스창시자에게배우는딥러닝/model_file
 
 #venv
 Kaggle/YuHan_Curriculum/Yuhan_venv
-Do_it_딥러닝입문/DoItDeepLearning_venv
+Do_it_딥러닝입문/DoItDeeplearning_venv
