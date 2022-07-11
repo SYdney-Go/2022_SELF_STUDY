@@ -131,10 +131,18 @@ dmypy.json
 #dataset
 케라스창시자에게배우는딥러닝/Dataset
 Kaggle/YuHan_Curriculum/2_SafeDriverPrediction/dataset
+Kaggle/YuHan_Curriculum/3_HouseCreditRisk/dataset
+KETI/JetsonNano_CNN/Dataset
 
 #model
 케라스창시자에게배우는딥러닝/model_file
+KETI/JetsonNano_CNN/MNIST
+딥러닝파이토치교과서/2장/MNIST
 
 #venv
 Kaggle/YuHan_Curriculum/Yuhan_venv
+Kaggle/YuHan_Curriculum/3_HouseCreditRisk/HouseCreditRisk_venv
 Do_it_딥러닝입문/DoItDeeplearning_venv
+딥러닝파이토치교과서/DeepLearningPytorch_venv
+라이브러리_뜯어보기/EfficientDet-Lite/EfficientDet_study_venv
+ICT_CV/ICV_CV_venv
