@@ -133,6 +133,7 @@ dmypy.json
 Kaggle/YuHan_Curriculum/2_SafeDriverPrediction/dataset
 Kaggle/YuHan_Curriculum/3_HouseCreditRisk/dataset
 KETI/JetsonNano_CNN/Dataset
+KETI/Opencv/OpenCV_Resources
 
 #model
 케라스창시자에게배우는딥러닝/model_file
