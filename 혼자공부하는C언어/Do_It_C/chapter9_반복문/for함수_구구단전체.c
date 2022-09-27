@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+void ShowMultiplication(int step)
+{
+    int i;
+
+    for(i=1; i<=9; i++) {
+        printf("%d * %d = %d \n", step, i, step*i);
+    }
+}
+
+
+void main()
+{
+    int i;
+    
+    for(i=1; i<=9; i++) {
+        printf("%d단입니다.\n", i);
+        ShowMultiplication(i);
+        printf("\n");
+    }
+}
