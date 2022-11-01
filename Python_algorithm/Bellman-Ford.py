@@ -1,6 +1,3 @@
-from tkinter import E
-
-
 # 최단 경로 탐색 문제 찾기
 def bellman_ford(edges, num_v):
     # 모든 노드의 값을 무한대로 초기화
