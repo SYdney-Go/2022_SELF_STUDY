@@ -1,26 +1,48 @@
+import random
+
 class BinaryTree:
     def __init__(self, root=None, right=None, left=None):
         self.root = root
-        self.root_next = None
-        self.right = None
-        self.left = None
+        self.right = right
+        self.left = left
     
     def __str__(self):
         return self.root
     
-    def build_tree(self, l:list):
-        value = [i for i in l]
-        self.root = (value.pop(0))
+def build_tree(BT, l:list):
+
+    if not l:
+        return
+    
+    value = l.pop(0)
+    
+    if BT.root < value:
+        if BT.right:
+            BT.root = BT.right
+            BT.left = None
+        BT.right = value
+    else:
+        if BT.left:
+            BT.root = BT.left
+            BT.right = None
+        BT.left = value
+    print("-----------------")
+    print(BT.root)
+    print(BT.left)
+    print(BT.right)      
+    return build_tree(BT, l)
         
-        for v in value:
-            if v > self.root:
-                self.right = v
-                self.root = self.right
-            else:
-                self.left = v
-                self.root = self.left
-                
-b_cur = B = BinaryTree()
-B.build_tree([1, 2, 3, 4, 5])
-while b_cur.right and b_cur.left:
-    print(b_cur.__str__())
+    
+if __name__ == "__main__":
+    l = [1, 3, 5, 7, 9, 2, 4, 6, 8, 10]          
+    B = BinaryTree(root=l.pop(0))
+    print("네, 제가 바로 귀여운 루트 ",B.__str__()) 
+    while l:
+        build_tree(B, l)
+        
+    l_rand = [random.randint(1, 100) for _ in range(100)]
+    B_rand = BinaryTree(root=l_rand.pop(0))
+    print(l_rand)
+    print("네, 제가 바로 귀여운 루트 ",B_rand.__str__()) 
+    while l_rand:
+        build_tree(B_rand, l_rand)
